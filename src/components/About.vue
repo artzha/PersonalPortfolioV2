@@ -33,11 +33,11 @@
 				<br></br>
 				I attended Lynbrook High School, where I first discovered my love for engineering after joining the school's FIRST robotics team, the Funky Monkeys. As Vice President, I led multiple mechanical subteams, delivering ambitious products under time crunches. I also learned to love learning, and an ability to apply my knowledge to produce awesome robotic assemblies. 
 				<br></br>
-				Aside from robotics, I've built plenty of software for fun, such as a machine learning model that classifies breast cancer, a web platform that attempts to predict the stock market.
+				Aside from robotics, I've built plenty of software for fun, such as a machine learning model that classifies breast cancer, to a web platform that attempts to predict the stock market.
 				<br></br>
 				Currently, I'm helping to design a custom BMS system and telemetry system from scratch for SPARK, an electric motorcycle student project team at Michigan!
 				<br></br>
-				If you're interested at learning more about soe of the cool things I've worked on, feel free to check out my projects section!
+				If you're interested at learning more about some of the cool things I've worked on, feel free to check out my projects section!
 				<br></br>
 				Interests: building awesomeness, boarding, and enjoying being young.
 
