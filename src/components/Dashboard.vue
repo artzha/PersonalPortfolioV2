@@ -39,7 +39,7 @@ export default {
 	},
 	data () {
 		return {
-			navMsg: "Discover more about me about below!"
+			navMsg: "Discover more about me below!"
 		}
 	}
 };
