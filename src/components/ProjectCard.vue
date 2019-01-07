@@ -42,7 +42,7 @@ export default {
 	methods: {
 		redirectUrl: function(url) {
 			if (this.project.type == "software") {
-				window.location.href = url
+				window.open(url)
 			} else {
 				console.log("for hardware")
 				window.open(url)
