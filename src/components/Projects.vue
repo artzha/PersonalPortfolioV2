@@ -2,7 +2,7 @@
 <div>
 	<nav-bar :description="navMsg"></nav-bar>
 	<div class="project-content">
-		<div class="table-contents">
+		<div class="table-contents table-contents-small">
 			<div>
 				<input id="search-bar" type="text"
             		v-model="searchQuery" placeholder="Search for project..." @keyup="submitSearch">
@@ -89,6 +89,25 @@ ul {
 li {
 	display: inline-block;
 	margin: 0 10px;
+}
+@media only screen and (max-width: 900px){
+	.table-contents-small .list-links {
+		position: absolute;
+		visibility: hidden;
+		height: 0px;
+		width: 0px;
+	}
+	.table-contents-small #search-bar {
+		position: absolute;
+		visibility: hidden;
+		height: 0px;
+		width: 0px;
+	}
+
+	.project-content .projects-container {
+		display: block;
+		width: 100%;
+	}
 }
 #search-bar {
 	margin-bottom: 10px;
