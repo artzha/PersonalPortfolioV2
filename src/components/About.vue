@@ -1,6 +1,6 @@
 <template>
 <div>
-	<nav-bar></nav-bar>
+	<nav-bar :description="navMsg"></nav-bar>
 	<div class="main-content">
 		<div class="info-container">
 			<div class="pf-picture">
@@ -17,6 +17,10 @@
 					<b>Email:</b> arthurzh@umich.edu
 					<br></br>
 					<b>Github:</b> @kingarthurz3
+					<br></br>
+					<b>Instagram:</b> @kingarthurz3
+					<br></br>
+					<b @click="openUrl('https://www.linkedin.com/in/arthur-k-zhang/')" class="link-button">View My Linkedin</b>
 				</p>
 			</div>
 		</div>
@@ -53,10 +57,13 @@ export default {
 	},
 	data() {
 		return {
-
+			navMsg: 'Resourceful Learner | Passionate Engineer | Easygoing Friend'
 		}
 	},
 	methods: {
+		openUrl: function(url) {
+			window.open(url)
+		}
 	}
 };
 </script>
@@ -74,6 +81,12 @@ a {
 body, html {
 	margin: 0px;
 	padding: 0;
+}
+.link-button {
+	color: blue;
+}
+.link-button:hover {
+	cursor: pointer;
 }
 .main-content {
 	margin: 40px;

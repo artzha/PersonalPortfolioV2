@@ -1,45 +1,45 @@
 <template>
 <div>
-	<div class="title">
-		<button class="title-btn" @click="navigate('Dashboard')">
-			<h1>
-				Hello, my name is Arthur.
-			</h1>
-		</button>
-	</div>
-	<div>
-		<h4>
-			Welcome to my personal website!
-		</h4>
-	</div>
-	<div>
-		Click below to find out more about me, the projects I have worked on, and anything else that you might want to know about me! 
-	</div>
-	<div class="nav-bar">
-		<li>
-			<router-link to="/about">
-				<button class="button-m"><h4>About Me</h4></button>
-			</router-link>
-			<router-link to="/projects">
-				<button class="button-m"><h4>Projects</h4></button>
-			</router-link>
-			<router-link to="/musings">
-				<button class="button-m"><h4>Random Musings</h4></button>
-			</router-link>
-			<router-link to="/contact">
-				<button class="button-m"><h4>Contact</h4></button>
-			</router-link>
-		</li>
+	<nav-bar :description="navMsg"></nav-bar>
+	<div class="picture-grid">
+		<div class="row">
+			<div class="col">
+				<img src="../../static/images/square/StockDisplaySite.png" class="picture-grid-detail"></img>
+			</div>
+			<div class="col">
+				<img src="../../static/images/square/Hub_Motor_Assembly_Open.png" class="picture-grid-detail"></img>
+			</div>
+			<div class="col">
+				<img src="../../static/images/square/telemetry.png" class="picture-grid-detail"></img>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="../../static/images/square/ClimberSystemWinch.png" class="picture-grid-detail"></img>
+			</div>
+			<div class="col">
+				<img src="../../static/images/square/feature-comparison.png" class="picture-grid-detail"></img>
+			</div>
+			<div class="col">
+				<img src="../../static/images/square/Schematic.png" class="picture-grid-detail"></img>
+			</div>
+		</div>
 	</div>
 </div>
 </template>
 
 <script>
+import router from '../router'
+import NavBar from './NavBar'
+
 export default {
 	name: 'HelloWorld',
+	components: {
+		'nav-bar': NavBar
+	},
 	data () {
 		return {
-			
+			navMsg: "Discover more about me about below!"
 		}
 	}
 };
@@ -65,8 +65,31 @@ body, html {
 	margin: 0px;
 	padding: 0;
 }
+.picture-grid {
+	display: block;
+	width: 75%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.picture-grid-detail {
+	width: 100%; 
+	height: auto;
+}
+.row {
+	display: block;
+	width: 100%;
+	height: 45%;
+}
+.col {
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+}
 .title {
 	color: #3399ff;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 .title-btn {
 	outline:none;
@@ -87,5 +110,9 @@ body, html {
 	font-weight: normal;
 	cursor: pointer; 
 	background-color: transparent;
+}
+.gif-pf {
+	width: 15%;
+	height: auto;
 }
 </style>

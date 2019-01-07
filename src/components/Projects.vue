@@ -1,6 +1,6 @@
 <template>
 <div>
-	<nav-bar></nav-bar>
+	<nav-bar :description="navMsg"></nav-bar>
 	<div class="project-content">
 		<div class="table-contents">
 			<div>
@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="projects-container">
-			<span v-show="filteredProjects.length <= 0">No results found :'(</span>
+			<span v-show="filteredProjects.length <= 0">No projects found with that name :'(</span>
 			<transition-group name="staggered-fade" tag="div" class="main-content" v-for="(projects, index) in filteredProjects" :key="index"> 
 				<project-card class="project-container"
 					:project="projects" :key="index" :id="projects.title">
@@ -37,7 +37,8 @@ export default {
 	data() {
 		return {
 			projectContainer: [],
-			searchQuery: ''
+			searchQuery: '',
+			navMsg: 'Just a kid trying to build big things.'
 		}
 	},
 	computed: {

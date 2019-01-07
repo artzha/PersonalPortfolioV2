@@ -3,8 +3,11 @@
 	<div class="title">
 		<button class="title-btn" @click="navigate('Dashboard')">
 			<h1>
-				Arthur K Zhang 
+				Arthur K. Zhang 
 			</h1>
+			<h4>
+				{{description}}
+			</h4>
 		</button>
 	</div>
 	<div>
@@ -32,7 +35,13 @@
 import router from '../router'
 
 export default {
-	name: 'About',
+	name: 'NavBar',
+	props: {
+		description: {
+			type: String,
+			required: true
+		}
+	},
 	data() {
 		return {
 			currentRoute: router.currentRoute.name
@@ -51,6 +60,8 @@ export default {
 <style scoped>
 h1, h2, h4, h5 {
 	font-weight: normal;
+	margin-top: 1%;
+	margin-bottom: 3%;
 }
 li {
 	display: inline-block;
@@ -58,6 +69,7 @@ li {
 }
 .title {
 	color: #3399ff;
+	margin: 0px;
 }
 .title-btn {
 	outline:none;
@@ -65,6 +77,7 @@ li {
 	color: #3399ff;
 	font-size: 15px;
 	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	margin: 0px;
 }
 .nav-bar {
 	margin-bottom: 15px;
@@ -78,7 +91,7 @@ li {
 	border-radius: 20px;
 	width: 200px;
 	height: 40px;
-	margin-top: 5px;
+	margin-top: 0px;
 	font-size: 15px;
 	font-weight: normal;
 }

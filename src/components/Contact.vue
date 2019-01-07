@@ -1,6 +1,6 @@
 <template>
 <div>
-	<nav-bar></nav-bar>
+	<nav-bar :description="navMsg"></nav-bar>
 	<h4>
 		Feel free to contact me about anything! I usually try to respond within a day or two.
 	</h4>
@@ -26,6 +26,7 @@ export default {
 	},
 	data() {
 		return {
+			navMsg: 'Always looking for an job to build awesome things.'
 		}
 	},
 	methods: {

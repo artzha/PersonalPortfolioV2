@@ -1,7 +1,7 @@
 <template>
 <div>
-	<nav-bar></nav-bar>
-	<h2>Under construction, thought to come</h2>
+	<nav-bar :description="navMsg"></nav-bar>
+	<h2>Under construction, thoughts to come</h2>
 </div>
 </template>
 <script>
@@ -15,6 +15,7 @@ export default {
 	},
 	data() {
 		return {
+			navMsg: 'Just speaking some thoughts on my mind'
 		}
 	},
 	methods: {
