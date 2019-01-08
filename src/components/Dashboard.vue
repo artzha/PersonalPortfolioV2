@@ -2,10 +2,10 @@
 <div>
 	<nav-bar :description="navMsg"></nav-bar>
 	<div class="picture-grid">
-		<div class="row" v-for="num_row in rows" :key="num_row">
-			<div v-for="num_col in cols" class="col" :key="num_col">
-				<img @click="redirectToProjects()" :src="randomizeProjects().image" class="picture-grid-detail"></img>
-				<span @click="redirectToProjects()" class="picture-grid-description">{{previousProject.title}}</span>
+		<div class="row" v-for="i in total_rows" :key="i">
+			<div class="col" v-for="j in total_cols" :key="j">
+				<img @click="redirectToProjects()" :src="projects[usedProjects[i-1][j-1]].image" class="picture-grid-detail"></img> 
+				<span @click="redirectToProjects()" class="picture-grid-description">{{projects[usedProjects[i-1][j-1]].title}}</span>
 			</div>
 		</div>
 	</div>
@@ -25,14 +25,20 @@ export default {
 	data () {
 		return {
 			navMsg: "Discover more about me below!",
-			projects: [],
+			projects: null,
 			previousProject: "",
-			cols: [0, 1, 2, 3],
-			rows: [0, 1]
+			total_cols: [
+				1,2,3,4
+			],
+			total_rows: [
+				1,2
+			],
+			usedProjects: []
 		}
 	},
 	methods: {
 		loadProjects: function() {
+			this.projects = []
 			for (let project in ProjectDetails) {
 				this.projects.push({
 					"title": ProjectDetails[project].title,
@@ -41,11 +47,27 @@ export default {
 				})
 			}
 		},
-		randomizeProjects: function() {
-			let index = Math.floor(Math.random()*this.projects.length)
-			this.previousProject = this.projects[index]
-			this.projects.splice(index, 1)
-			return this.previousProject
+		generateRange: function(pCount, pMin, pMax) {
+			let min = pMin < pMax ? pMin : pMax;
+		    let max = pMax > pMin ? pMax : pMin;
+		    var resultArr = [], randNumber;
+		    while ( pCount > 0) {
+		        randNumber = Math.round(min + Math.random() * (max - min));
+		        if (resultArr.indexOf(randNumber) == -1) {
+		            resultArr.push(randNumber);
+		            pCount--;
+		        }
+		    }
+		    let result = []
+		    for (let i = 0; i < 4; i++) {
+		    	result.push(resultArr[i])
+		    }
+			this.usedProjects.push(result)
+			result = []
+			for (let i = 4; i < 8; i++) {
+		    	result.push(resultArr[i])
+		    }
+		    this.usedProjects.push(result)
 		},
 		redirectToProjects: function() {
 			router.push({ name: 'Projects'})
@@ -53,6 +75,7 @@ export default {
 	},
 	created: function() {
 		this.loadProjects()
+		this.generateRange(8, 0, this.projects.length-1)
 	}
 };
 </script>
