@@ -13,9 +13,9 @@
 		</div>
 		<div class="projects-container">
 			<span v-show="filteredProjects.length <= 0">No projects found with that name :'(</span>
-			<transition-group name="staggered-fade" tag="div" class="main-content" v-for="(projects, index) in filteredProjects" :key="index"> 
+			<transition-group name="staggered-fade" tag="div" class="main-content" v-for="(projects, index) in filteredProjects" :id="projects.hash"  :key="index"> 
 				<project-card class="project-container"
-					:project="projects" :key="index" :id="projects.title">
+					:project="projects" :key="index">
 				</project-card>
 			</transition-group>
 		</div>
@@ -58,7 +58,8 @@ export default {
 						'date': projectData[index]['date'],
 						'imageSrc': projectData[index]['src'],
 						'description': projectData[index]['desc'],
-						'type': projectData[index]['type']
+						'type': projectData[index]['type'],
+						'hash': projectData[index]['hash']
 					}
 				)
 			}

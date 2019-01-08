@@ -4,8 +4,22 @@
 	<div class="picture-grid">
 		<div class="row" v-for="i in total_rows" :key="i">
 			<div class="col" v-for="j in total_cols" :key="j">
-				<img @click="redirectToProjects()" :src="projects[usedProjects[i-1][j-1]].image" class="picture-grid-detail"></img> 
-				<span @click="redirectToProjects()" class="picture-grid-description">{{projects[usedProjects[i-1][j-1]].title}}</span>
+				<anchor-router-link :to="{name: 'Projects', hash: projects[usedProjects[i-1][j-1]].hash}"
+					:scrollOptions="{
+				        container: 'body',
+				        duration: 700,
+				        easing: 'ease',
+				        offset: 0,
+				        cancelable: true,
+				        onStart: false,
+				        onDone: false,
+				        onCancel: false,
+				        x: false,
+				        y: true
+				    }">
+					<img :src="projects[usedProjects[i-1][j-1]].image" class="picture-grid-detail"></img> 
+					<span class="picture-grid-description">{{projects[usedProjects[i-1][j-1]].title}}</span>
+				</anchor-router-link>
 			</div>
 		</div>
 	</div>
@@ -13,6 +27,7 @@
 </template>
 
 <script>
+import VueAnchorRouterLink from 'vue-anchor-router-link'
 import ProjectDetails from '../assets/project_images.json'
 import router from '../router'
 import NavBar from './NavBar'
@@ -20,7 +35,8 @@ import NavBar from './NavBar'
 export default {
 	name: 'HelloWorld',
 	components: {
-		'nav-bar': NavBar
+		'nav-bar': NavBar,
+		'anchor-router-link': VueAnchorRouterLink
 	},
 	data () {
 		return {
@@ -43,7 +59,7 @@ export default {
 				this.projects.push({
 					"title": ProjectDetails[project].title,
 					"image": ProjectDetails[project].image,
-					"url": ProjectDetails[project].url
+					"hash": ProjectDetails[project].hash
 				})
 			}
 		},

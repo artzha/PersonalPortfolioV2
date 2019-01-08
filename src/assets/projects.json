@@ -5,7 +5,8 @@
 		"date": "Fall 2018",
 		"src": "../../static/images/telemetry.png",
 		"type": "hardware",
-		"desc": "I built a telemetry system for my collegiate electric motorcycle racing team (SPARK) to help us analyze our motorcycle performance after races. I used an Arduino Uno and various sensors (GPS, IMU, temperature) to collect the data on the motorcycle and clean it using sensor fusion algorithms before saving it to an sd card. This data collected can be viewed on the telemetry dashboard (shown above). The dashboard supports a playback feature that allows users to view how the data changes by the second."
+		"desc": "I built a telemetry system for my collegiate electric motorcycle racing team (SPARK) to help us analyze our motorcycle performance after races. I used an Arduino Uno and various sensors (GPS, IMU, temperature) to collect the data on the motorcycle and clean it using sensor fusion algorithms before saving it to an sd card. This data collected can be viewed on the telemetry dashboard (shown above). The dashboard supports a playback feature that allows users to view how the data changes by the second.",
+		"hash": "TelemetrySpark"
 	},
 	"1": {
 		"title": "Mr.MarketWatch",
@@ -13,7 +14,8 @@
 		"date": "Summer 2018",
 		"src": "../../static/images/Stock Display Site.png",
 		"type": "software",
-		"desc": "Mr. Stock Market is an intelligent trading advisor that analyzes numeric financial data and market sentiment using a gradient boosting machine learning model and predicts weekly stock prices. The frontend and backend parts of this project continuously update and display current financial predictions and graph data. The machine learning models used are built using Tensorflow and Sci-kit learn and the graphical display gui is built on top of the Vue.js framework."
+		"desc": "Mr. Stock Market is an intelligent trading advisor that analyzes numeric financial data and market sentiment using a gradient boosting machine learning model and predicts weekly stock prices. The frontend and backend parts of this project continuously update and display current financial predictions and graph data. The machine learning models used are built using Tensorflow and Sci-kit learn and the graphical display gui is built on top of the Vue.js framework.",
+		"hash": "Mr.MarketWatch"
 	},
 	"2": {
 		"title": "FIRST Robotics Climber System",
@@ -21,7 +23,8 @@
 		"date": "Winter 2017",
 		"src": "../../static/images/ClimberFullSystem.png",
 		"type": "hardware",
-		"desc": "In six weeks, I led a team of six students to design, manufacture, and test a climber system from scratch using Solidworks and Autodesk Inventor for the 2018 FIRST robotics competition. This is a highly adjustable system capable of lifting two other 150 lb robots, one on either side, in three seconds or lifting the attached robot in a second. It is comprised of three distinct mechanical assemblies: the gearbox, swing arm, and lifting forks."
+		"desc": "In six weeks, I led a team of six students to design, manufacture, and test a climber system from scratch using Solidworks and Autodesk Inventor for the 2018 FIRST robotics competition. This is a highly adjustable system capable of lifting two other 150 lb robots, one on either side, in three seconds or lifting the attached robot in a second. It is comprised of three distinct mechanical assemblies: the gearbox, swing arm, and lifting forks.",
+		"hash": "FIRST2018"
 	},
 	"3": {
 		"title": "Clothing Classifier",
@@ -29,7 +32,8 @@
 		"date": "Fall 2017",
 		"src": "../../static/images/clothing-classifier.png",
 		"type": "software",
-		"desc": "I created this Tensorflow algorithm and trained it to recognize clothing from images provided by Zalando (a fashion company). I used a dataset of over 55,000 training examples and 10,000 test examples. It classifies clothing into ten categories, ranging from t-shirts, trousers, pullovers, dresses, coats, sandals, shirts, sneakers, bags, and ankle boots."
+		"desc": "I created this Tensorflow algorithm and trained it to recognize clothing from images provided by Zalando (a fashion company). I used a dataset of over 55,000 training examples and 10,000 test examples. It classifies clothing into ten categories, ranging from t-shirts, trousers, pullovers, dresses, coats, sandals, shirts, sneakers, bags, and ankle boots.",
+		"hash":"ClothingClassifier"
 	},
 	"4": {
 		"title": "In Hub Electric Longboard",
@@ -37,7 +41,8 @@
 		"date": "Fall 2018",
 		"src": "../../static/images/Hub_Motor_Assembly.png",
 		"type": "hardware",
-		"desc": "I’m designing and manufacturing an electric longboard, opting to increase the complexity by designing an in hub motor. The main challenges for this project are cost-effectively sourcing the materials used and performing calculations on optimizing motor performance. After testing the motor design, I plan on designing a custom battery management system and speed controllers as well (the current electrical system consists of store bought speed controllers and battery system). CAD renders of the current hub motor design are available below."
+		"desc": "I’m designing and manufacturing an electric longboard, opting to increase the complexity by designing an in hub motor. The main challenges for this project are cost-effectively sourcing the materials used and performing calculations on optimizing motor performance. After testing the motor design, I plan on designing a custom battery management system and speed controllers as well (the current electrical system consists of store bought speed controllers and battery system). CAD renders of the current hub motor design are available below.",
+		"hash": "ElectricLongboard"
 	},
 	"5": {
 		"title": "Breast Cancer Classifier",
@@ -45,7 +50,8 @@
 		"date": "Winter 2017",
 		"src": "../../static/images/feature-comparison.png",
 		"type": "software",
-		"desc": "Doctors frequently have to diagnose breast cancer and determine if it is malignant or benign. I trained this model to help doctors quickly determine the condition of a patient's breast cancer. I used a Wisconsin breast cancer dataset from UCI's machine learning repository. After creating and tuning several machine learning models, I found that a Random Forest Classification model acheived the highest accuracy at 94.552% and also the highest cross validation scores."
+		"desc": "Doctors frequently have to diagnose breast cancer and determine if it is malignant or benign. I trained this model to help doctors quickly determine the condition of a patient's breast cancer. I used a Wisconsin breast cancer dataset from UCI's machine learning repository. After creating and tuning several machine learning models, I found that a Random Forest Classification model acheived the highest accuracy at 94.552% and also the highest cross validation scores.",
+		"hash": "BreastCancer"
 	},
 	"6": {
 		"title": "Linear Algebra Library",
@@ -53,7 +59,8 @@
 		"date": "Winter 2018",
 		"src": "../../static/images/linsystems.png",
 		"type": "software",
-		"desc": "This library provides implementations of vectors, lines, planes of nth dimensions, and also a linear systems of equations class. At a high level, the linear systems class can be used to solve for intersections and returns the intersection (if one exists), both as a unique point or as a parametrized equation. The library used a gaussian elimination algorithm to solve for a system of equations."
+		"desc": "This library provides implementations of vectors, lines, planes of nth dimensions, and also a linear systems of equations class. At a high level, the linear systems class can be used to solve for intersections and returns the intersection (if one exists), both as a unique point or as a parametrized equation. The library used a gaussian elimination algorithm to solve for a system of equations.",
+		"hash": "LinearAlgebra"
 	},
 	"7": {
 		"title": "Yelp Sentiment Analysis",
@@ -61,7 +68,8 @@
 		"date": "Spring 2018",
 		"src": "../../static/images/yelp-review.png",
 		"type": "software",
-		"desc": "I trained this neural network to determine whether a user likes or dislikes a business based on their review. To do this, I used Natural Language Processing (NLP) to process their reviews. I used this dataset with 10,000 yelp reviews and classified them based on these 10 entries. I used Pandas, NLTK, and Scikit-learn libraries to help me analyze this dataset."
+		"desc": "I trained this neural network to determine whether a user likes or dislikes a business based on their review. To do this, I used Natural Language Processing (NLP) to process their reviews. I used this dataset with 10,000 yelp reviews and classified them based on these 10 entries. I used Pandas, NLTK, and Scikit-learn libraries to help me analyze this dataset.",
+		"hash": "SentimentAnalysis"
 	},
 	"8": {
 		"title": "Constant Torque Spring Motor",
@@ -69,6 +77,7 @@
 		"date": "Spring 2018",
 		"src": "../../static/images/Negator Spring Motor.png",
 		"type": "hardware",
-		"desc": "I designed and machined a torque spring motor, which converts potential energy in constant torque springs to pulling force. I 3D printed custom ABS spools to wind two constant torque springs on. By adjusting the radius of the spool that the counterbalancing cable winds on, I can tune the motor to provide the exact amount of force produced. In 2018, I used this assembly to counterbalance a lift elevator on my team’s FIRST robot, which allowed us to rapidly move the entire 15 lb lift elevator with only one 775 pro motor."
+		"desc": "I designed and machined a torque spring motor, which converts potential energy in constant torque springs to pulling force. I 3D printed custom ABS spools to wind two constant torque springs on. By adjusting the radius of the spool that the counterbalancing cable winds on, I can tune the motor to provide the exact amount of force produced. In 2018, I used this assembly to counterbalance a lift elevator on my team’s FIRST robot, which allowed us to rapidly move the entire 15 lb lift elevator with only one 775 pro motor.",
+		"hash": "TorqueSpring"
 	}
 }
