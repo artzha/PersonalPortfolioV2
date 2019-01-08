@@ -2,26 +2,10 @@
 <div>
 	<nav-bar :description="navMsg"></nav-bar>
 	<div class="picture-grid">
-		<div class="row">
-			<div class="col">
-				<img src="../../static/images/square/StockDisplaySite.png" class="picture-grid-detail"></img>
-			</div>
-			<div class="col">
-				<img src="../../static/images/square/Hub_Motor_Assembly_Open.png" class="picture-grid-detail"></img>
-			</div>
-			<div class="col">
-				<img src="../../static/images/square/telemetry.png" class="picture-grid-detail"></img>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<img src="../../static/images/square/ClimberSystemWinch.png" class="picture-grid-detail"></img>
-			</div>
-			<div class="col">
-				<img src="../../static/images/square/feature-comparison.png" class="picture-grid-detail"></img>
-			</div>
-			<div class="col">
-				<img src="../../static/images/square/Schematic.png" class="picture-grid-detail"></img>
+		<div class="row" v-for="num_row in rows" :key="num_row">
+			<div v-for="num_col in cols" class="col" :key="num_col">
+				<img @click="redirectToProjects()" :src="randomizeProjects().image" class="picture-grid-detail"></img>
+				<span @click="redirectToProjects()" class="picture-grid-description">{{previousProject.title}}</span>
 			</div>
 		</div>
 	</div>
@@ -29,6 +13,7 @@
 </template>
 
 <script>
+import ProjectDetails from '../assets/project_images.json'
 import router from '../router'
 import NavBar from './NavBar'
 
@@ -39,12 +24,38 @@ export default {
 	},
 	data () {
 		return {
-			navMsg: "Discover more about me below!"
+			navMsg: "Discover more about me below!",
+			projects: [],
+			previousProject: "",
+			cols: [0, 1, 2, 3],
+			rows: [0, 1]
 		}
+	},
+	methods: {
+		loadProjects: function() {
+			for (let project in ProjectDetails) {
+				this.projects.push({
+					"title": ProjectDetails[project].title,
+					"image": ProjectDetails[project].image,
+					"url": ProjectDetails[project].url
+				})
+			}
+		},
+		randomizeProjects: function() {
+			let index = Math.floor(Math.random()*this.projects.length)
+			this.previousProject = this.projects[index]
+			this.projects.splice(index, 1)
+			return this.previousProject
+		},
+		redirectToProjects: function() {
+			router.push({ name: 'Projects'})
+		}
+	},
+	created: function() {
+		this.loadProjects()
 	}
 };
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 h1, h2, h4, h5 {
@@ -67,14 +78,35 @@ body, html {
 }
 .picture-grid {
 	display: block;
-	width: 75%;
+	width: 100%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
+.col:hover .picture-grid-description {
+	visibility: visible;
+	cursor: pointer;
+}
+.picture-grid-description {
+	visibility: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: white;
+}
 .picture-grid-detail {
 	width: 100%; 
 	height: auto;
+}
+.col:hover .picture-grid-detail{
+	cursor: pointer;
+	-webkit-filter: brightness(60%);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 .row {
 	display: block;
@@ -83,8 +115,10 @@ body, html {
 }
 .col {
 	display: inline-block;
-	width: 30%;
+	position: relative;
+	width: 23%;
 	height: 100%;
+	margin: 3px;
 }
 .title {
 	color: #3399ff;

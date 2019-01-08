@@ -1,0 +1,57 @@
+{
+	"0": {
+		"title": "In Hub Electric Longboard Motor",
+		"image": "../../static/images/square/Hub_Motor_Assembly_Open.png",
+		"url": ""
+	},
+	"1": {
+		"title": "Stock Market Prediction Algorithm",
+		"image": "../../static/images/square/StockDisplaySite.png",
+		"url": ""
+	},
+	"2": {
+		"title": "Telemetry Dashboard Gui",
+		"image": "../../static/images/square/telemetry.png",
+		"url": ""
+	},
+	"3": {
+		"title": "Four Stage Climber Gearbox",
+		"image": "../../static/images/square/ClimberSystemWinch.png",
+		"url": ""
+	},
+	"4": {
+		"title": "Breast Cancer Classification Algorithm",
+		"image": "../../static/images/square/feature-comparison.png",
+		"url": ""
+	},
+	"5": {
+		"title": "Telemetry Sensor Schematic",
+		"image": "../../static/images/square/Schematic.png",
+		"url": ""
+	},
+	"6": {
+		"title": "FIRST Robotics Climbing System",
+		"image": "../../static/images/ClimberFullSystem.png",
+		"url": ""
+	},
+	"7": {
+		"title": "Yelp Review Sentiment Classifier Algorithm",
+		"image": "../../static/images/yelp-review.png",
+		"url": ""
+	},
+	"8": {
+		"title": "Custom Linear Algebra Equation Solving Library",
+		"image": "../../static/images/linsystemsbg.png",
+		"url": ""
+	},
+	"9": {
+		"title": "Clothing Image Recognition ML Model",
+		"image": "../../static/images/clothing-classifier.png",
+		"url": ""
+	},
+	"10": {
+		"title": "Torque Spring Motor",
+		"image": "../../static/images/Negator Spring Motor.png",
+		"url": ""
+	}
+}
