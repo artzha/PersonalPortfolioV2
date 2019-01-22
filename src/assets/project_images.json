@@ -25,8 +25,8 @@
 		"hash": "#BreastCancer"
 	},
 	"5": {
-		"title": "Telemetry Sensor Schematic",
-		"image": "../../static/images/square/Schematic.png",
+		"title": "Telemetry Sensor PCB",
+		"image": "../../static/images/square/TelemetryPCB.png",
 		"hash": "#TelemetrySpark"
 	},
 	"6": {
