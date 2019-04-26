@@ -12,7 +12,7 @@
 		<b> Github: </b> <span class="link" @click="redirectToLink('https://github.com/KingArthurZ3')">https://github.com/KingArthurZ3</span>
 		<br></br>
 	</div>
-	<div><b class="link" href="/../assets/Arthur_Zhang_Resume.pdf" @click="openResume()">View Resume</b></div>
+	<div><b class="link" href="/../../static/images/Arthur_Zhang_Resume.pdf" @click="openResume()">View Resume</b></div>
 </div>
 </template>
 <script>
