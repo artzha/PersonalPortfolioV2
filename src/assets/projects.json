@@ -1,5 +1,14 @@
 {
 	"0": {
+		"title": "Custom Battery Management PCB",
+		"url": "../../static/images/BMS_1.pdf",
+		"date": "Spring 2019",
+		"src": "../../static/images/BMS_1_3D.png",
+		"type": "hardware",
+		"desc": "I researched battery management systems this semester for my student project design team SPARK, and helped design a custom pcb for monitoring and balancing lithium ion battery cell voltages on our electric motorcycle. This BMS connects with up to 6 cells, uses SPI communications written in C with its to efficiently communicate with its peripherals, and is daisy chainable with up to 32 other battery management pcbs. The intended purpose for this pcb is to monitor roughly 100 lithium ion battery cells during our bike's races next season.",
+		"hash": "BMS_1_PCB"
+	},
+	"1": {
 		"title": "Collegiate Electric Racing Team Telemetry System",
 		"url": "../../static/images/Telemetry.pdf",
 		"date": "Fall 2018",
@@ -8,7 +17,7 @@
 		"desc": "I built a telemetry system for my collegiate electric motorcycle racing team (SPARK) to help us analyze our motorcycle performance after races. I used an Arduino Uno and various sensors (GPS, IMU, temperature) to collect the data on the motorcycle and clean it using sensor fusion algorithms before saving it to an sd card. This data collected can be viewed on the telemetry dashboard (shown above). The dashboard supports a playback feature that allows users to view how the data changes by the second.",
 		"hash": "TelemetrySpark"
 	},
-	"1": {
+	"2": {
 		"title": "Mr.MarketWatch",
 		"url": "https://github.com/KingArthurZ3/Mr.MarketWatch",
 		"date": "Summer 2018",
@@ -17,25 +26,7 @@
 		"desc": "Mr. Stock Market is an intelligent trading advisor that analyzes numeric financial data and market sentiment using a gradient boosting machine learning model and predicts weekly stock prices. The frontend and backend parts of this project continuously update and display current financial predictions and graph data. The machine learning models used are built using Tensorflow and Sci-kit learn and the graphical display gui is built on top of the Vue.js framework.",
 		"hash": "Mr.MarketWatch"
 	},
-	"2": {
-		"title": "FIRST Robotics Climber System",
-		"url": "../../static/images/ClimberDocumentation.pdf",
-		"date": "Winter 2017",
-		"src": "../../static/images/ClimberFullSystem.png",
-		"type": "hardware",
-		"desc": "In six weeks, I led a team of six students to design, manufacture, and test a climber system from scratch using Solidworks and Autodesk Inventor for the 2018 FIRST robotics competition. This is a highly adjustable system capable of lifting two other 150 lb robots, one on either side, in three seconds or lifting the attached robot in a second. It is comprised of three distinct mechanical assemblies: the gearbox, swing arm, and lifting forks.",
-		"hash": "FIRST2018"
-	},
 	"3": {
-		"title": "Clothing Classifier",
-		"url": "https://github.com/KingArthurZ3/Clothing-Classifier",
-		"date": "Fall 2017",
-		"src": "../../static/images/clothing-classifier.png",
-		"type": "software",
-		"desc": "I created this Tensorflow algorithm and trained it to recognize clothing from images provided by Zalando (a fashion company). I used a dataset of over 55,000 training examples and 10,000 test examples. It classifies clothing into ten categories, ranging from t-shirts, trousers, pullovers, dresses, coats, sandals, shirts, sneakers, bags, and ankle boots.",
-		"hash":"ClothingClassifier"
-	},
-	"4": {
 		"title": "In Hub Electric Longboard",
 		"url": "../../static/images/ElectricLongboard.pdf",
 		"date": "Fall 2018",
@@ -43,6 +34,15 @@
 		"type": "hardware",
 		"desc": "I’m designing and manufacturing an electric longboard, opting to increase the complexity by designing an in hub motor. The main challenges for this project are cost-effectively sourcing the materials used and performing calculations on optimizing motor performance. After testing the motor design, I plan on designing a custom battery management system and speed controllers as well (the current electrical system consists of store bought speed controllers and battery system). CAD renders of the current hub motor design are available below.",
 		"hash": "ElectricLongboard"
+	},
+	"4": {
+		"title": "Clothing Classifier",
+		"url": "https://github.com/KingArthurZ3/Clothing-Classifier",
+		"date": "Fall 2017",
+		"src": "../../static/images/clothing-classifier.png",
+		"type": "software",
+		"desc": "I created this Tensorflow algorithm and trained it to recognize clothing from images provided by Zalando (a fashion company). I used a dataset of over 55,000 training examples and 10,000 test examples. It classifies clothing into ten categories, ranging from t-shirts, trousers, pullovers, dresses, coats, sandals, shirts, sneakers, bags, and ankle boots.",
+		"hash":"ClothingClassifier"
 	},
 	"5": {
 		"title": "Breast Cancer Classifier",
@@ -72,6 +72,15 @@
 		"hash": "SentimentAnalysis"
 	},
 	"8": {
+		"title": "FIRST Robotics Climber System",
+		"url": "../../static/images/ClimberDocumentation.pdf",
+		"date": "Winter 2017",
+		"src": "../../static/images/ClimberFullSystem.png",
+		"type": "hardware",
+		"desc": "In six weeks, I led a team of six students to design, manufacture, and test a climber system from scratch using Solidworks and Autodesk Inventor for the 2018 FIRST robotics competition. This is a highly adjustable system capable of lifting two other 150 lb robots, one on either side, in three seconds or lifting the attached robot in a second. It is comprised of three distinct mechanical assemblies: the gearbox, swing arm, and lifting forks.",
+		"hash": "FIRST2018"
+	},
+	"9": {
 		"title": "Constant Torque Spring Motor",
 		"url": "../../static/images/SpringMotor.pdf",
 		"date": "Spring 2018",

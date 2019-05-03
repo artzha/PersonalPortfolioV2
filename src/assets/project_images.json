@@ -15,43 +15,43 @@
 		"hash": "#TelemetrySpark"
 	},
 	"3": {
-		"title": "Four Stage Climber Gearbox",
-		"image": "../../static/images/square/ClimberSystemWinch.png",
-		"hash": "#FIRST2018"
-	},
-	"4": {
 		"title": "Breast Cancer Classification Algorithm",
 		"image": "../../static/images/square/feature-comparison.png",
 		"hash": "#BreastCancer"
 	},
-	"5": {
+	"4": {
 		"title": "Telemetry Sensor PCB",
 		"image": "../../static/images/square/TelemetryPCB.PNG",
 		"hash": "#TelemetrySpark"
 	},
-	"6": {
+	"5": {
 		"title": "FIRST Robotics Climbing System",
 		"image": "../../static/images/ClimberFullSystem.png",
 		"hash": "#FIRST2018"
 	},
-	"7": {
+	"6": {
 		"title": "Yelp Review Sentiment Classifier Algorithm",
 		"image": "../../static/images/yelp-review.png",
 		"hash": "#SentimentAnalysis"
 	},
-	"8": {
+	"7": {
 		"title": "Custom Linear Algebra Equation Solving Library",
 		"image": "../../static/images/linsystemsbg.png",
 		"hash": "#LinearAlgebra"
 	},
-	"9": {
+	"8": {
 		"title": "Clothing Image Recognition ML Model",
 		"image": "../../static/images/clothing-classifier.png",
 		"hash": "#ClothingClassifier"
 	},
-	"10": {
+	"9": {
 		"title": "Torque Spring Motor",
 		"image": "../../static/images/Negator Spring Motor.png",
 		"hash": "#TorqueSpring"
+	},
+	"10": {
+		"title": "Battery Management System PCB",
+		"image": "../../static/images/BMS_1_3D.png",
+		"hash": "#BMS_1_PCB"
 	}
 }
