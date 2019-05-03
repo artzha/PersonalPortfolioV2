@@ -45,11 +45,6 @@
 		"hash": "#ClothingClassifier"
 	},
 	"9": {
-		"title": "Torque Spring Motor",
-		"image": "../../static/images/Negator Spring Motor.png",
-		"hash": "#TorqueSpring"
-	},
-	"10": {
 		"title": "Battery Management System PCB",
 		"image": "../../static/images/BMS_1_3D.png",
 		"hash": "#BMS_1_PCB"
