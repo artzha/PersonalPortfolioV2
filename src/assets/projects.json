@@ -3,7 +3,7 @@
 		"title": "Dead Reckoning Navigation System",
 		"url": "https://github.com/KingArthurZ3/Dead-Reckoning",
 		"date": "Summer 2019",
-		"src": "../../static/images/DeadReckoning.jpeg",
+		"src": "../../static/images/DeadReckoning.png",
 		"type": "software",
 		"desc": "I architected a distributed system that features three STM32 microcontrollers and 9 axis accelerometers for calculating sensor orientation realtime, complete with triple fault redundancy and sensor fusion algorithms. I designed this project for use in fault tolerant navigation systems, such as spacecraft and automobile transporation. This project implements work from multiple research papers, using techniques like quarternion sensor fusion, low cost time synchronization, and fault resolution tactics inspired by Byzantine Generals.",
 		"hash": "DeadReckoning"
