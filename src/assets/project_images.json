@@ -1,52 +1,52 @@
 {
 	"0": {
 		"title": "In Hub Electric Longboard Motor",
-		"image": "../../static/images/square/Hub_Motor_Assembly_Open.png",
+		"image": "../../static/images/square/Hub_Motor_Assembly_Open.jpg",
 		"hash": "#ElectricLongboard"
 	},
 	"1": {
 		"title": "Stock Market Prediction Algorithm",
-		"image": "../../static/images/square/StockDisplaySite.png",
+		"image": "../../static/images/square/StockDisplaySite.jpg",
 		"hash": "#Mr.MarketWatch"
 	},
 	"2": {
 		"title": "Telemetry Dashboard Gui",
-		"image": "../../static/images/square/telemetry.png",
+		"image": "../../static/images/square/telemetry.jpg",
 		"hash": "#TelemetrySpark"
 	},
 	"3": {
 		"title": "Breast Cancer Classification Algorithm",
-		"image": "../../static/images/square/feature-comparison.png",
+		"image": "../../static/images/square/feature-comparison.jpg",
 		"hash": "#BreastCancer"
 	},
 	"4": {
 		"title": "Telemetry Sensor PCB",
-		"image": "../../static/images/square/TelemetryPCB.PNG",
+		"image": "../../static/images/square/TelemetryPCB.jpg",
 		"hash": "#TelemetrySpark"
 	},
 	"5": {
 		"title": "Yelp Review Sentiment Classifier Algorithm",
-		"image": "../../static/images/yelp-review.png",
+		"image": "../../static/images/yelp-review.jpg",
 		"hash": "#SentimentAnalysis"
 	},
 	"6": {
 		"title": "Custom Linear Algebra Equation Solving Library",
-		"image": "../../static/images/linsystemsbg.png",
+		"image": "../../static/images/linsystems.jpg",
 		"hash": "#LinearAlgebra"
 	},
 	"7": {
 		"title": "Clothing Image Recognition ML Model",
-		"image": "../../static/images/clothing-classifier.png",
+		"image": "../../static/images/clothing-classifier.jpg",
 		"hash": "#ClothingClassifier"
 	},
 	"8": {
 		"title": "Battery Management System PCB",
-		"image": "../../static/images/BMS_1_3D.png",
+		"image": "../../static/images/BMS_1_3D.jpg",
 		"hash": "#BMS_1_PCB"
 	},
 	"9": {
 		"title": "Dead Reckoning Navigation System",
-		"image": "../../static/images/DeadReckoning.png",
+		"image": "../../static/images/DeadReckoning.jpg",
 		"hash": "#DeadReckoning"
 	}
 }
