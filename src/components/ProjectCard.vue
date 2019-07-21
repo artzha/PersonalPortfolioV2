@@ -20,6 +20,11 @@
 				<span v-if="project.type=='software'">Github</span>
 				<span v-else="project.type=='hardware'">Paper</span>
 			</button>
+			<!-- <button class="info-btn" type="submit"
+			@click="navigate()">
+				<span v-if="project.type=='software'">Github</span>
+				<span v-else="project.type=='hardware'">Paper</span>
+			</button> -->
 		</div>
 	</div>
 </template>
@@ -33,7 +38,7 @@ export default {
 			type: Object,
 			required: true
 		}
-	}, 
+	},
 	data() {
 		return {
 			currentRoute: router.currentRoute.name
@@ -47,6 +52,11 @@ export default {
 				console.log("for hardware")
 				window.open(url)
 			}
+		},
+		navigate: function() {
+			const pathName = '/projects/' + this.project.type + '/' + this.project.title;
+			console.log("HIT PATH ", pathName)
+			router.push({path: pathName});
 		}
 	}
 };
