@@ -29,13 +29,13 @@
 				Hi! My name is Arthur.
 			</h3>
 			<div class="pf-details">
-				I'm currently a freshmen at the Univeristy of Michigan. I grew up in San Jose, CA and spent my early years playing club basketball, running track, and gaming a bit too much.
+				I'm currently a sophomore at the University of Michigan. I grew up in San Jose, CA and spent my early years playing club basketball, running track, and gaming a bit too much.
 				<br></br>
 				I attended Lynbrook High School, where I first discovered my love for engineering after joining the school's FIRST robotics team, the Funky Monkeys. As Vice President, I led multiple mechanical subteams, delivering ambitious products under time crunches. I also learned to love learning, and an ability to apply my knowledge to produce awesome robotic assemblies. 
 				<br></br>
-				Aside from robotics, I've built plenty of software for fun, such as a machine learning model that classifies breast cancer, to a web platform that attempts to predict the stock market.
+				During my first year in college, I'm helping to design a custom BMS system and telemetry system from scratch for SPARK, an electric motorcycle student project team at Michigan.
 				<br></br>
-				Currently, I'm helping to design a custom BMS system and telemetry system from scratch for SPARK, an electric motorcycle student project team at Michigan!
+				Currently, I'm helping to develop engine controller firmware and designing sensor testbeds for MASA, a student project design team that builds rockets that fly to the edge of space!
 				<br></br>
 				If you're interested at learning more about some of the cool things I've worked on, feel free to check out my projects section!
 				<br></br>
