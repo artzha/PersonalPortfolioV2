@@ -29,9 +29,9 @@
 				Hi! My name is Arthur.
 			</h3>
 			<div class="pf-details">
-				I'm currently a sophomore at the University of Michigan. I grew up in San Jose, CA and spent my early years playing club basketball, running track, and gaming a bit too much.
+				I'm currently a sophomore at the University of Michigan. I grew up in San Jose, CA and spent my early years playing sports, tinkering with projects, and gaming a bit too much.
 				<br></br>
-				I attended Lynbrook High School, where I first discovered my love for engineering after joining the school's FIRST robotics team, the Funky Monkeys. As Vice President, I led multiple mechanical subteams, delivering ambitious products under time crunches. I also learned to love learning, and an ability to apply my knowledge to produce awesome robotic assemblies. 
+				I attended Lynbrook High School, where I first discovered my love for engineering after joining the school's FIRST robotics team, the Funky Monkeys. There, I learned to love learning, and an ability to apply my knowledge to produce awesome robotic assemblies. 
 				<br></br>
 				During my first year in college, I'm helping to design a custom BMS system and telemetry system from scratch for SPARK, an electric motorcycle student project team at Michigan.
 				<br></br>
