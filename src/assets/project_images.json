@@ -1,4 +1,5 @@
 {
+	
 	"0": {
 		"title": "In Hub Electric Longboard Motor",
 		"image": "../../static/images/square/Hub_Motor_Assembly_Open.jpg",
@@ -20,33 +21,33 @@
 		"hash": "#BreastCancer"
 	},
 	"4": {
-		"title": "Telemetry Sensor PCB",
-		"image": "../../static/images/square/TelemetryPCB.jpg",
-		"hash": "#TelemetrySpark"
-	},
-	"5": {
 		"title": "Yelp Review Sentiment Classifier Algorithm",
 		"image": "../../static/images/yelp-review.jpg",
 		"hash": "#SentimentAnalysis"
 	},
-	"6": {
+	"5": {
 		"title": "Custom Linear Algebra Equation Solving Library",
 		"image": "../../static/images/linsystems.jpg",
 		"hash": "#LinearAlgebra"
 	},
-	"7": {
+	"6": {
 		"title": "Clothing Image Recognition ML Model",
 		"image": "../../static/images/clothing-classifier.jpg",
 		"hash": "#ClothingClassifier"
 	},
-	"8": {
+	"7": {
 		"title": "Battery Management System PCB",
 		"image": "../../static/images/BMS_1_3D.jpg",
 		"hash": "#BMS_1_PCB"
 	},
-	"9": {
+	"8": {
 		"title": "Dead Reckoning Navigation System",
 		"image": "../../static/images/DeadReckoning.jpg",
 		"hash": "#DeadReckoning"
+	},
+	"9": {
+		"title": "Rocket Pressurization Board",
+		"image": "../../static/images/Pressurization_1_PCB.jpg",
+		"hash": "#Pressurization"
 	}
 }
