@@ -27,7 +27,7 @@ export default {
 	},
 	computed: {
 		getContent: function() {
-			console.log(this.content)
+			// console.log(this.content)
 			return this.content;
 		}
 	},

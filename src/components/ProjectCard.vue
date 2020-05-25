@@ -18,7 +18,7 @@
 			<button class="info-btn" type="submit"
 			@click="redirectUrl(project.url)">
 				<span v-if="project.type=='software'">Github</span>
-				<span v-else="project.type=='hardware'">Paper</span>
+				<span v-else-if="project.type=='hardware'">Paper</span>
 			</button>
 			<!-- <button class="info-btn" type="submit"
 			@click="navigate()">
@@ -81,6 +81,7 @@ h2:hover {
 	width: 45%;
 	height: 100%;
 }
+
 .project-desc {
 	display: inline-block;
 	text-align: left;
@@ -89,6 +90,37 @@ h2:hover {
 	height: 100%;
 	margin-left: 30px;
 }
+
+@media screen and (max-width: 650px), (max-height: 650px) {
+	.project-desc {
+		display: inline-block;
+		text-align: center;
+		float: none;
+		width: 100%;
+		height: 100%;
+		margin-left: 0px;
+	}
+	.project-img {
+		display: inline-block;
+		float: none;
+		width: 70%;
+		height: 70%;
+	}
+
+	.info-btn {
+		display: block;
+		background-color: #3399ff;
+		outline: none;
+		border: none;
+		border-radius: 4px;
+		font-family: 'Avenir', Helvetica, Arial, sans-serif;
+		height: 25px;
+		width: auto;
+		padding: 5px;
+		margin: 0 auto;
+	}
+}
+
 .date {
 	padding-bottom: 5px;
 	font-size: 14px;
