@@ -11,41 +11,36 @@
 		"hash": "#Mr.MarketWatch"
 	},
 	"2": {
-		"title": "Telemetry Dashboard Gui",
-		"image": "../../static/images/square/telemetry.jpg",
-		"hash": "#TelemetrySpark"
-	},
-	"3": {
 		"title": "Breast Cancer Classification Algorithm",
 		"image": "../../static/images/square/feature-comparison.jpg",
 		"hash": "#BreastCancer"
 	},
-	"4": {
+	"3": {
 		"title": "Yelp Review Sentiment Classifier Algorithm",
 		"image": "../../static/images/yelp-review.jpg",
 		"hash": "#SentimentAnalysis"
 	},
-	"5": {
+	"4": {
 		"title": "Custom Linear Algebra Equation Solving Library",
 		"image": "../../static/images/linsystems.jpg",
 		"hash": "#LinearAlgebra"
 	},
-	"6": {
+	"5": {
 		"title": "Clothing Image Recognition ML Model",
 		"image": "../../static/images/clothing-classifier.jpg",
 		"hash": "#ClothingClassifier"
 	},
-	"7": {
+	"6": {
 		"title": "Battery Management System PCB",
 		"image": "../../static/images/BMS_1_3D.jpg",
 		"hash": "#BMS_1_PCB"
 	},
-	"8": {
+	"7": {
 		"title": "Dead Reckoning Navigation System",
 		"image": "../../static/images/DeadReckoning.jpg",
 		"hash": "#DeadReckoning"
 	},
-	"9": {
+	"8": {
 		"title": "Rocket Pressurization Board",
 		"image": "../../static/images/Pressurization_1_PCB.jpg",
 		"hash": "#Pressurization"

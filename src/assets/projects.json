@@ -5,7 +5,7 @@
 		"date": "Winter 2020",
 		"src": "../../static/images/Pressurization_1_PCB.jpg",
 		"type": "hardware",
-		"desc": "During my first year as an avionics member on MASA, U of M's student rocketry team, I researched and designed a 4 layer PCB capable of monitoring and actively balancing rocket fuel tank pressures with rapid pressure fluctuations. My STM32 based PCB supports sensor circuitry and control for brushed and brushless motors, valves, pressure transducers, thermocouples, and full duplex RS-422 communications. I am currently developing PID control algorithms and firmware libraries in C for interfacing with components on the PCB, like ADCs and flash memory.",
+		"desc": "During my first year as an avionics member on MASA, U of M's student rocketry team, I researched and designed a 6 layer PCB capable of monitoring and actively balancing rocket fuel tank pressures with rapid pressure fluctuations. My STM32 based PCB supports sensor circuitry and control for brushed and brushless motors, valves, pressure transducers, thermocouples, and full duplex RS-422 communications. I am currently developing PID control algorithms and firmware libraries in C for interfacing with components on the PCB, like ADCs and flash memory.",
 		"hash": "Pressurization"
 	},
 	"1": {
