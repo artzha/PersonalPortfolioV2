@@ -41,8 +41,8 @@
 		"hash": "#DeadReckoning"
 	},
 	"8": {
-		"title": "Rocket Pressurization Board",
-		"image": "../../static/images/Pressurization_1_PCB.jpg",
+		"title": "Rocket Combustion Control Board",
+		"image": "../../static/images/Pressurization_1_Full_PCB.jpg",
 		"hash": "#Pressurization"
 	}
 }

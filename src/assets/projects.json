@@ -1,11 +1,11 @@
 {
 	"0": {
-		"title": "Rocket Pressurization Board",
-		"url": "../../static/images/Pressurization_1.pdf",
+		"title": "Rocket Combustion Control Board",
+		"url": "https://github.com/KingArthurZ3/Combustion-Control",
 		"date": "Winter 2020",
-		"src": "../../static/images/Pressurization_1_PCB.jpg",
+		"src": "../../static/images/Pressurization_1_Full_PCB.jpg",
 		"type": "hardware",
-		"desc": "During my first year as an avionics member on MASA, U of M's student rocketry team, I researched and designed a 6 layer PCB capable of monitoring and actively balancing rocket fuel tank pressures with rapid pressure fluctuations. My STM32 based PCB supports sensor circuitry and control for brushed and brushless motors, valves, pressure transducers, thermocouples, and full duplex RS-422 communications. I am currently developing PID control algorithms and firmware libraries in C for interfacing with components on the PCB, like ADCs and flash memory.",
+		"desc": "During my first year as an avionics member on MASA, U of M's student rocketry team, I researched and designed a 8 layer PCB capable of monitoring and actively balancing rocket fuel tank pressures with rapid pressure fluctuations. My STM32 based PCB supports sensor circuitry and control for brushed and brushless motors, valves, pressure transducers, thermocouples, and full duplex RS-422 communications. I am currently integrating PID control algorithms and firmware libraries in C for interfacing with components on the PCB, like ADCs and flash memory.",
 		"hash": "Pressurization"
 	},
 	"1": {

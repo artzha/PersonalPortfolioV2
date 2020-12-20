@@ -11,14 +11,21 @@
 				</li>
 			</div>
 		</div>
-		<div class="projects-container">
+		<div v-if="selectedProject==-1" class="projects-container">
 			<span v-show="filteredProjects.length <= 0">No projects found with that name :'(</span>
 			<transition-group name="staggered-fade" tag="div" class="main-content" v-for="(projects, index) in filteredProjects" :id="projects.hash"  :key="index"> 
 				<project-card class="project-container"
+					v-on:changeSelectedProject="changeSelectedProject"
 					:project="projects" :key="index">
 				</project-card>
 			</transition-group>
 		</div>
+		<!-- <div v-else class="projects-container">
+			<pressure-board></pressure-board>
+			<button @click="changeSelectedProject(-1)">
+				View all Projects
+		    </button>
+		</div> -->
 	</div>
 </div>
 </template>
@@ -38,7 +45,8 @@ export default {
 		return {
 			projectContainer: [],
 			searchQuery: '',
-			navMsg: 'Just a kid trying to build big things.'
+			navMsg: 'Just a kid trying to build big things.',
+			selectedProject: -1
 		}
 	},
 	computed: {
@@ -49,6 +57,10 @@ export default {
         }
 	},
 	methods: {
+		changeSelectedProject: function(event) {
+			let projectKey = event;
+			this.selectedProject = projectKey;
+		},
 		loadProjectData: function() {
 			for (let index in projectData) {
 				this.projectContainer.push(
@@ -133,6 +145,10 @@ li {
 	height: auto;
 	margin-left: 20px;
 	margin-top: 20px;
+}
+
+.project-modal {
+
 }
 .project-container {
 	display: block;

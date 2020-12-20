@@ -49,9 +49,12 @@ export default {
 			if (this.project.type == "software") {
 				window.open(url)
 			} else {
-				console.log("for hardware")
+				//this.changeSelectedProject(this.$vnode.key);
 				window.open(url)
 			}
+		},
+		changeSelectedProject: function(projectHash) {
+			this.$emit('changeSelectedProject', projectHash);
 		},
 		navigate: function() {
 			const pathName = '/projects/' + this.project.type + '/' + this.project.title;
