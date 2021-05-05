@@ -1,5 +1,4 @@
 {
-	
 	"0": {
 		"title": "In Hub Electric Longboard Motor",
 		"image": "../../static/images/square/Hub_Motor_Assembly_Open.jpg",
@@ -44,5 +43,10 @@
 		"title": "Rocket Combustion Control Board",
 		"image": "../../static/images/Pressurization_1_Full_PCB.jpg",
 		"hash": "#Pressurization"
+	},
+	"9": {
+		"title": "Autonomous Tracking Robot",
+		"image": "../../static/images/Magic_Bot.jpg",
+		"hash": "#MagicBot"
 	}
 }
