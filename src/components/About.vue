@@ -29,14 +29,14 @@
 				Hi! My name is Arthur.
 			</h3>
 			<div class="pf-details">
-				I'm currently a junior at the University of Michigan. I grew up in San Jose, CA and spent my early years playing sports, tinkering with projects, and gaming a bit too much.
+				I'm currently a senior at the University of Michigan. I grew up in San Jose, CA and spent my early years playing sports, tinkering with projects, and gaming a bit too much.
 				<br></br>
 				I attended Lynbrook High School, where I first discovered my love for engineering after joining the school's FIRST robotics team, the Funky Monkeys. There, I learned to love learning, and an ability to apply my knowledge to produce awesome robotic assemblies. 
 				<br></br>
 				During my first year in college, I'm helping to design a custom BMS system and telemetry system from scratch for SPARK, an electric motorcycle student project team at Michigan.
 				<br></br>
 				Currently, I'm helping to develop avionics hardware for MASA, a student project design team that builds rockets that fly to the edge of space! I'm also
-				writing embedded control software for MiTEE, a U of M lab that researches miniature satellites that use atmospheric currents to prolong mission life.
+				writing realtime robotics software at CURLY, a U of M lab whose research enables robots to autonomously explore dynamic environments.
 				<br></br>
 				If you're interested at learning more about some of the cool things I've worked on, feel free to check out my projects section!
 				<br></br>
