@@ -1,12 +1,12 @@
 {
 	"0": {
 		"title": "Autonomous Tracking Robot",
-		"url": "https://github.com/KingArthurZ3/magic-bot",
+		"url": "https://github.com/KingArthurZ3/TomJerryBot",
 		"date": "Winter 2021",
 		"src": "../../static/images/Magic_Bot.jpg",
 		"type": "software",
-		"desc": "For my major design autonomous robotics class, my team and I built and programmed an autonomous mobile robot capable of exploring an unknown environment to detect and follow a moving target. The robot uses a Raspberry Pi to handle the high level state machine, occupancy grid based SLAM stack, and moving target D* Lite path planning; Nvidia Jetson Nano for performing relatime target segmentation and an adaptive entropy particle filter for target localization; and Beaglebone Black for motor control and sensor readings. The Magic Bot chassis was originally designed by April Labs @ Umich.",
-		"hash": "MagicBot"
+		"desc": "For my major design autonomous robotics class, my team and I built and programmed an autonomous mobile robot (Tom & Jerry Bot) capable of exploring an unknown environment to detect and follow a moving target. The robot uses a Raspberry Pi to handle the high level state machine, occupancy grid based SLAM stack, and moving target D* Lite path planning; Nvidia Jetson Nano for performing relatime target segmentation and an adaptive entropy particle filter for target localization; and Beaglebone Black for motor control and sensor readings. The Magic Bot chassis was originally designed by April Labs @ Umich.",
+		"hash": "TomJerryBot"
 	},
 	"1": {
 		"title": "Rocket Combustion Control Board",
